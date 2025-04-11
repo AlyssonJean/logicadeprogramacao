@@ -1,0 +1,30 @@
+
+class program
+{
+    static void main()
+    {
+        Console.WriteLine("iniciando o preparo do sanduiche...");
+
+
+
+
+        string[] ingredientes = { "pao", "queijo", "presunto", "complemtos(opcional)" };
+        Console.WriteLine("Reunindo ngredinetes: " + string.Join(",", ingredientes));
+
+
+        Console.WriteLine("pegando uma fatia de pao.");
+        Console.WriteLine("adicionando queijo.");
+        Console.WriteLine("adicionando presunto.");
+        Console.WriteLine("adicionando complementos se desejado.");
+        Console.WriteLine("colocando a outra fatia de pao por cima");
+
+
+
+        Console.WriteLine("cortando o sanduiche no meio");
+        Console.WriteLine("sanduiche pronto! Servido...");
+
+
+        Console.WriteLine("fim do processo.");
+    }
+
+}
